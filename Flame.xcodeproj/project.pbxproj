@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		63BCAF0425A136FA00537C17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BCAF0325A136FA00537C17 /* AppDelegate.swift */; };
-		63BCAF0B25A136FE00537C17 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63BCAF0A25A136FE00537C17 /* Preview Assets.xcassets */; };
 		63BCAF0E25A136FE00537C17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63BCAF0C25A136FE00537C17 /* Main.storyboard */; };
 		63BCAF1C25A1374500537C17 /* FlameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BCAF1B25A1374500537C17 /* FlameView.swift */; };
 		63BCAF2325A137E500537C17 /* FlameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BCAF2225A137E500537C17 /* FlameManager.swift */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		63BCAF0025A136FA00537C17 /* Flame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63BCAF0325A136FA00537C17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63BCAF0A25A136FE00537C17 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		63BCAF0D25A136FE00537C17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63BCAF0F25A136FE00537C17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63BCAF1025A136FE00537C17 /* Flame.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Flame.entitlements; sourceTree = "<group>"; };
@@ -64,17 +62,8 @@
 				63BCAF0C25A136FE00537C17 /* Main.storyboard */,
 				63BCAF0F25A136FE00537C17 /* Info.plist */,
 				63BCAF1025A136FE00537C17 /* Flame.entitlements */,
-				63BCAF0925A136FE00537C17 /* Preview Content */,
 			);
 			path = Flame;
-			sourceTree = "<group>";
-		};
-		63BCAF0925A136FE00537C17 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				63BCAF0A25A136FE00537C17 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		63BCAF1825A1371500537C17 /* Views */ = {
@@ -152,7 +141,6 @@
 			files = (
 				63BCAF0E25A136FE00537C17 /* Main.storyboard in Resources */,
 				63BCAF2C25A1436300537C17 /* Assets.xcassets in Resources */,
-				63BCAF0B25A136FE00537C17 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +294,7 @@
 				CODE_SIGN_ENTITLEMENTS = Flame/Flame.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"Flame/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = UY72C74W7W;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -330,7 +318,7 @@
 				CODE_SIGN_ENTITLEMENTS = Flame/Flame.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"Flame/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = UY72C74W7W;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;

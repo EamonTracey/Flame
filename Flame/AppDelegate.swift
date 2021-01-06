@@ -55,8 +55,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 extension NSImage {
 
-    class var flameImage: NSImage? {
-        NSImage(systemSymbolName: FlameManager.sharedManager.isFlamed ? "flame.fill" : "flame", accessibilityDescription: nil)
+    static var flameImage: NSImage? {
+        NSImage(systemSymbolName: FlameManager.shared.isFlamed ? "flame.fill" : "flame", accessibilityDescription: nil)
     }
 
 }

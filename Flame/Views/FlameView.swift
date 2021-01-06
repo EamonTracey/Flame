@@ -8,18 +8,18 @@
 import SwiftUI
 
 struct FlameView: View {
-    
-    @StateObject var flameManager = FlameManager.sharedManager
-    
+
+    @StateObject var flameManager = FlameManager.shared
+
     var body: some View {
         Group {
-            if FlameManager.sharedManager.isFlamed {
+            if flameManager.isFlamed {
                 Button("Deflame") {
-                    FlameManager.sharedManager.deflame()
+                    flameManager.deflame()
                 }
             } else {
                 Button("Flame") {
-                    FlameManager.sharedManager.flame()
+                    flameManager.flame()
                 }
             }
         }
