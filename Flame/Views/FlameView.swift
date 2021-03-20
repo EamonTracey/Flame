@@ -13,9 +13,9 @@ struct FlameView: View {
     var body: some View {
         VStack {
             Button(flameManager.isFlamed ? "Deflame" : "Flame", action: flameManager.isFlamed ? flameManager.deflame : flameManager.flame)
-            Button(action: { NSApp.terminate(nil) }, label: {
-                Text("Quit")
-            })
+            Button("Quit") {
+                NSApp.terminate(nil)
+            }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
